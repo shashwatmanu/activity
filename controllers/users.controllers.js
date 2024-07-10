@@ -33,7 +33,7 @@ const searchUsers = (req, res)=>{
 
 //
   const getUsers = (req, res)=>{
-    if(req.headers.authorization !== process.env.apiKey) return res.sendStatus(401);
+    
     res.send(data.data);
   }
 
