@@ -1,4 +1,4 @@
 GET http://localhost:8082/users/search
 ###
 GET http://localhost:8082/users
-Authorization: LetMeIn
+Authorization: 
